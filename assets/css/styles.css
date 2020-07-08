@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html,body{
+    padding:0;
+    margin: 0;
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.Material{
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #272d39;
+    background: -webkit-linear-gradient(left,#D63031, #ee4e04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 2%;
+}
+
+.rw-1{
+    font-size: 70px;
+    margin-right: 0;
+    /* background-color: #272d39; */
+    border: 4px solid linear-gradient(left,#D63031, #ee4e04);
+    padding: 5px;
+    width: fit-content;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left,#D63031, #ee4e04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rw-navbar{
+    width: 100%;
+    height: 10%;
+    padding:0;
+    margin: 0;
+    background-color: #272d39;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* overflow: hidden; */
+    -webkit-box-shadow: 2px 10px 61px -46px rgba(255,255,255,1);
+    -moz-box-shadow: 2px 10px 61px -46px rgba(255,255,255,1);
+    box-shadow: 2px 10px 61px -46px rgba(255,255,255,1);
+}
+
+.rw-navbarsec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20%;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.rw-title{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    /* color: #D63031; */
+    background: -webkit-linear-gradient(left,#D63031, #ee4e04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rw-navlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.rw-navitem{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 0 1.5% 0 1.5%;
+    white-space: nowrap;
+    transition: 1s ease-out;
+}
+
+.rw-navitem:hover{
+    background: -webkit-linear-gradient(left,#D63031, #ee4e04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rw-navitem:active{
+    background: -webkit-linear-gradient(left,#D63031, #ee4e04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid #D63031;
+}
+
+.rw-curvearea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    background-color: #272d39;
+    align-items: center;
+    padding-top: 5%;
+    background-image: url(../img/bg.png);
+    background-size: 30% auto;
+    animation: bganim 50s infinite ease;
+    /* background-color: #fff; */
+}
+
+@keyframes bganim{
+   0%{
+       background-position-x: 0%;
+   }
+   50%{
+    background-position-x: 100% ;
+   }
+   100%{
+       background-position-x: 0% ;
+   }
+}
+
+.rw-curve{
+    width: 100%;
+    z-index: 99;
+}
+
+.rw-curveareatitle{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 0 1.5% 0 1.5%;
+    white-space: nowrap;
+    font-weight: 300;
+}
+
+.b1{
+    font-size: 60px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(left,#D63031, #ee4e04);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50%{background-position:100% 50%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+    100%{background-position:0% 50%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+    
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+    50%{background-position:100% 50%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+    100%{background-position:0% 50%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+    50%{background-position:100% 50%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+    100%{background-position:0% 50%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+}
+
+@keyframes title{
+    from{
+        background: -webkit-linear-gradient(left,#D63031, #ee4e04);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    to{
+        background: -webkit-linear-gradient(left,#ee4e04,#D63031);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.b6{
+    font-size: 14px;
+    margin-bottom: 1%;
+}
+
+.rw-screenshotarea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rw-screenshot{
+    transition: 0.5s ease-out;
+}
+
+.rw-screenshot:hover{
+    transform: scale(1.1);
+}
+
+.rw-aimsection{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    padding-bottom: 5%;
+
+}
+
+.rw-textorimgcontainer{
+  flex: 1;
+}
+
+.containcenter{
+    text-align: center;
+}
+
+.containmargin{
+    padding-left: 10%;
+    padding-top:3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rw-aimtitle{
+    font-size: 20px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(left,#D63031, #ee4e04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    flex: 1;
+}
+
+.rw-aim2title{
+    margin-top: 10px;
+    font-size: 27px;
+    font-weight: 600;
+color: #272d39;
+    font-family: 'Montserrat', sans-serif;
+    flex: 1;
+}
+
+
+.rw-aimdescript{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 550;
+color: #444;
+font-family: 'Open Sans', sans-serif;
+    margin-right:100px ;
+    flex: 1;
+}
+
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+   z-index: 99;
+}
+
+.rw-features {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.rw-feature {
+    display: flex;
+    flex-direction:column;
+    flex: 1;
+    padding-right: 5%;
+}
+.rw-feature:first-child{
+    padding-left: 10%;
+
+}
+
+.rw-feattitle{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #272d39;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    flex: 1;
+}
+
+.rw-divider{
+    background-color: #272d39;
+     background-image: linear-gradient( to left,#D63031, #ee4e04);
+    width: 20%;
+    height: 3px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 0 1.5px 1.5px 0;
+}
+
+.rw-descript{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+
+.rw-products{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    padding-bottom: 10%;
+}
+
+.rw-producttitle{
+    font-size: 30px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(left,#D63031, #ee4e04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+
+.rw-productcard{
+    width: 5%;
+    height: 450px;
+    margin-right: 5%;
+    /* background-color: #333; */
+    flex: 1;
+}
+
+.rw-productcard:first-child{
+    margin-left: 10%;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.rw-front,.rw-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: white;
+    display: flex;
+    border-radius: 10px;
+}
+
+.rw-back{
+    background: rgb(255, 255, 255);
+    /* border-top: 10px solid; */
+    border-image: linear-gradient(left,#D63031, #ee4e04);
+    /* border-image: red; */
+    color: #444;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+}
+
+.gradient{
+    background: linear-gradient(left,#D63031, #ee4e04);
+}
+
+.rw-productcard:hover .container{
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.rw-proctitle{
+    padding-left: 5%;
+    padding-top: 5%;
+    background-color: white;
+}
+
+.rw-productdescript{
+    padding-right: 15%;
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 550;
+color: #444;
+font-family: 'Open Sans', sans-serif;
+}
+
+.rw-button{
+    width: 35%;
+    height: 40px;
+    background-image:linear-gradient( to left,#D63031, #ee4e04);
+    margin-left: 30%;
+    margin-top: 15%;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+.rw-button:hover{
+    border: 1px solid #D63031;
+    background-image:linear-gradient( to left,white, white);
+    color: #D63031 ;
+}
+
+.rw-contactinfo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.rw-footer{
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    background-color: #272d39;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+.rw-footertext{
+    display: flex;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    flex: 1;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  
+
+  
