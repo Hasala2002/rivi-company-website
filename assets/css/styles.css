@@ -10,7 +10,13 @@ html,body{
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
+
+a {
+     color: inherit;
+     text-decoration: none;
+     } 
 
 .Material{
     font-family: 'Material Icons';
@@ -227,6 +233,7 @@ html,body{
     flex-direction: row;
     width: 100%;
     height: 50%;
+    padding-top: 5%;
     padding-bottom: 5%;
 
 }
@@ -422,14 +429,14 @@ font-family: 'Open Sans', sans-serif;
 
 .rw-button{
     width: 35%;
-    height: 40px;
+    height: 30px;
     background-image:linear-gradient( to left,#D63031, #ee4e04);
     margin-left: 30%;
-    margin-top: 15%;
+    margin-top: 10%;
     border-radius: 10px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     display: flex;
     flex-direction: column;
     align-items: center;
